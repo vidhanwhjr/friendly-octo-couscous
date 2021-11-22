@@ -1,0 +1,25 @@
+body{
+    background: url("background.jpg");
+}
+h3{
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color: blue;
+}
+
+canvas{
+    animation-name: moo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moo{
+    0% {box-shadow: 1px 1px 38px red;}
+    25% {box-shadow: 1px 1px 38px orangered;}
+    50% {box-shadow: 1px 1px 38px orange;}
+    75% {box-shadow: 1px 1px 38px brown;}
+    100% {box-shadow: 1px 1px 38px black;}
+}
+
